@@ -55,14 +55,14 @@ void Proisvedenie(int[,] m1, int[,] m2)
     for (int i=0; i < m1.GetLength(0); i++)
     {
         
-        for (kk=i; kk < m2.GetLength(1); kk++)
+        for (kk=0; kk < m2.GetLength(1); kk++)
         {
             k = i;
             for (int j=0; j < m1.GetLength(1); j++)
             {
                 p = p + m1[i,j]*m2[j,kk];
             }
-            arr[i,k] = p;
+            arr[i,kk] = p;
             k++;
             p = 0;
         }

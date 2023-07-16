@@ -1,0 +1,15 @@
+C:\ОБУЧЕНИЕ\Методы и массивы\Sem8_H\E3\obj\Debug\net7.0\E3.csproj.AssemblyReference.cache
+C:\ОБУЧЕНИЕ\Методы и массивы\Sem8_H\E3\obj\Debug\net7.0\E3.GeneratedMSBuildEditorConfig.editorconfig
+C:\ОБУЧЕНИЕ\Методы и массивы\Sem8_H\E3\obj\Debug\net7.0\E3.AssemblyInfoInputs.cache
+C:\ОБУЧЕНИЕ\Методы и массивы\Sem8_H\E3\obj\Debug\net7.0\E3.AssemblyInfo.cs
+C:\ОБУЧЕНИЕ\Методы и массивы\Sem8_H\E3\obj\Debug\net7.0\E3.csproj.CoreCompileInputs.cache
+C:\ОБУЧЕНИЕ\Методы и массивы\Sem8_H\E3\bin\Debug\net7.0\E3.exe
+C:\ОБУЧЕНИЕ\Методы и массивы\Sem8_H\E3\bin\Debug\net7.0\E3.deps.json
+C:\ОБУЧЕНИЕ\Методы и массивы\Sem8_H\E3\bin\Debug\net7.0\E3.runtimeconfig.json
+C:\ОБУЧЕНИЕ\Методы и массивы\Sem8_H\E3\bin\Debug\net7.0\E3.dll
+C:\ОБУЧЕНИЕ\Методы и массивы\Sem8_H\E3\bin\Debug\net7.0\E3.pdb
+C:\ОБУЧЕНИЕ\Методы и массивы\Sem8_H\E3\obj\Debug\net7.0\E3.dll
+C:\ОБУЧЕНИЕ\Методы и массивы\Sem8_H\E3\obj\Debug\net7.0\refint\E3.dll
+C:\ОБУЧЕНИЕ\Методы и массивы\Sem8_H\E3\obj\Debug\net7.0\E3.pdb
+C:\ОБУЧЕНИЕ\Методы и массивы\Sem8_H\E3\obj\Debug\net7.0\E3.genruntimeconfig.cache
+C:\ОБУЧЕНИЕ\Методы и массивы\Sem8_H\E3\obj\Debug\net7.0\ref\E3.dll

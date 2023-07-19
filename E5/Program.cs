@@ -45,7 +45,7 @@ void FillArray(int[,] mass)
     int y =0;
     int k=1;
     int a = 0;
-    for (int i=0; i < mass.GetLength(0)/2; i++)
+    for (int i=0; i < mass.GetLength(0)/2+1; i++)
     {
         for (int j=0; j < mass.GetLength(1)-a; j++)
         {
@@ -62,14 +62,14 @@ void FillArray(int[,] mass)
             k++;
         }
         int index = mass.GetLength(0)-a-1;
-        int coloms = mass.GetLength(1)-a-2;
+        int coloms = mass.GetLength(1)-a-1;
         while ( coloms > a)
         {
             mass[index,coloms] = k;
             k++;
             coloms = coloms-1;        
         }
-        int jjj = mass.GetLength(1) + a - mass.GetLength(1)+1;
+        int jjj = a ;
         int c =  mass.GetLength(0) - a-1;
         
         while ( c > a)

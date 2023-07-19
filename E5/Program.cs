@@ -41,31 +41,42 @@ void PrintArray(int[,] mass)
 
 void FillArray(int[,] mass)
 {
-    int k=0;
-    int a = 1;
+    int x =0;
+    int y =0;
+    int k=1;
+    int a = 0;
     for (int i=0; i < mass.GetLength(0)/2; i++)
     {
         for (int j=0; j < mass.GetLength(1)-a; j++)
         {
             mass[i,j] = k;
             k++;
+            x = i;
+            y = j;
+
         }
-        int jj = mass.GetLength(1)-a-2;
-        for (int ii =1; ii < mass.GetLength(0)-a; ii++)
+        int jj = y-a;
+        for (int ii = x+1; ii < mass.GetLength(0)-a; ii++)
         {
-            mass[i,jj] = k;
+            mass[ii,jj] = k;
             k++;
         }
-        for (int j = mass.GetLength(1)-a-1; j< 0; j--)
+        int index = mass.GetLength(0)-a-1;
+        int coloms = mass.GetLength(1)-a-2;
+        while ( coloms > a)
         {
-            mass[i,j] = k;
+            mass[index,coloms] = k;
             k++;
+            coloms = coloms-1;        
         }
-        int jjj = 0;
-        for (int ii = mass.GetLength(0)-a-1; ii < 0; i--)
+        int jjj = mass.GetLength(1) + a - mass.GetLength(1)+1;
+        int c =  mass.GetLength(0) - a-1;
+        
+        while ( c > a)
         {
-            mass[ii,jjj] = k;
-            k++;
+            mass[c,jjj] = k;
+            k++; 
+            c = c -1;    
         }
         a++;
 

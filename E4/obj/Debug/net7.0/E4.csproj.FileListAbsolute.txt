@@ -1,0 +1,5 @@
+C:\ОБУЧЕНИЕ\Методы и массивы\Sem8_H\E4\obj\Debug\net7.0\E4.csproj.AssemblyReference.cache
+C:\ОБУЧЕНИЕ\Методы и массивы\Sem8_H\E4\obj\Debug\net7.0\E4.GeneratedMSBuildEditorConfig.editorconfig
+C:\ОБУЧЕНИЕ\Методы и массивы\Sem8_H\E4\obj\Debug\net7.0\E4.AssemblyInfoInputs.cache
+C:\ОБУЧЕНИЕ\Методы и массивы\Sem8_H\E4\obj\Debug\net7.0\E4.AssemblyInfo.cs
+C:\ОБУЧЕНИЕ\Методы и массивы\Sem8_H\E4\obj\Debug\net7.0\E4.csproj.CoreCompileInputs.cache

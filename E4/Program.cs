@@ -13,8 +13,8 @@ int row = int.Parse(Console.ReadLine()!);
 int colom = row;
 int k = row;
 
-int[,,] massive = new int[row,colom,k];
-FillArray(massive);
+int[,,] massive = GetArray(row, 0, 100);
+// FillArray(massive);
 
 Console.WriteLine("Получилась матрица: ");
 
@@ -35,29 +35,31 @@ void PrintArray(int[,,] mass)
             {
                 Console.Write($"{mass[ i , j , v] }, ({i}, {j}, {v}) ");
             }
-            
+            Console.WriteLine();
         }
-        Console.WriteLine();
+        
     }
 }
 
 
-void FillArray(int[,,] mass)
+int [,,] GetArray(int index, int min, int max)
 {
-    for (int i=0; i < mass.GetLength(0); i++)
+    int[,,] result = new int[index,index,index];
+    for (int i=0; i < result.GetLength(0); i++)
     {
-        for (int j=0; j < mass.GetLength(0); j++)
+        for (int j=0; j < result.GetLength(0); j++)
         {
             int v = 0;
-            while( v < mass.GetLength(0))
+            while( v < result.GetLength(0))
             {
-                int temp = new Random().Next(0,1000);
-                if (FindeEl(temp,mass[i,j,v])) continue;
-                mass[i,j,v] = temp;
+                int temp = new Random().Next(min,max);
+                if (FindeEl(temp,result)) continue;
+                result[i,j,v] = temp;
                 v++;
             }
         }
     }
+    return result;
 }
 
 bool FindeEl(int el,int[,,]array)

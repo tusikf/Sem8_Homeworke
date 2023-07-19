@@ -3,3 +3,13 @@ C:\ОБУЧЕНИЕ\Методы и массивы\Sem8_H\E4\obj\Debug\net7.0\E4
 C:\ОБУЧЕНИЕ\Методы и массивы\Sem8_H\E4\obj\Debug\net7.0\E4.AssemblyInfoInputs.cache
 C:\ОБУЧЕНИЕ\Методы и массивы\Sem8_H\E4\obj\Debug\net7.0\E4.AssemblyInfo.cs
 C:\ОБУЧЕНИЕ\Методы и массивы\Sem8_H\E4\obj\Debug\net7.0\E4.csproj.CoreCompileInputs.cache
+C:\ОБУЧЕНИЕ\Методы и массивы\Sem8_H\E4\bin\Debug\net7.0\E4.exe
+C:\ОБУЧЕНИЕ\Методы и массивы\Sem8_H\E4\bin\Debug\net7.0\E4.deps.json
+C:\ОБУЧЕНИЕ\Методы и массивы\Sem8_H\E4\bin\Debug\net7.0\E4.runtimeconfig.json
+C:\ОБУЧЕНИЕ\Методы и массивы\Sem8_H\E4\bin\Debug\net7.0\E4.dll
+C:\ОБУЧЕНИЕ\Методы и массивы\Sem8_H\E4\bin\Debug\net7.0\E4.pdb
+C:\ОБУЧЕНИЕ\Методы и массивы\Sem8_H\E4\obj\Debug\net7.0\E4.dll
+C:\ОБУЧЕНИЕ\Методы и массивы\Sem8_H\E4\obj\Debug\net7.0\refint\E4.dll
+C:\ОБУЧЕНИЕ\Методы и массивы\Sem8_H\E4\obj\Debug\net7.0\E4.pdb
+C:\ОБУЧЕНИЕ\Методы и массивы\Sem8_H\E4\obj\Debug\net7.0\E4.genruntimeconfig.cache
+C:\ОБУЧЕНИЕ\Методы и массивы\Sem8_H\E4\obj\Debug\net7.0\ref\E4.dll

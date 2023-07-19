@@ -5,6 +5,9 @@
 // 11 16 15 06
 // 10 09 08 07
 
+
+// не получается, запуталась)
+
 Console.Write("Введите количество строк: ");
 int row = int.Parse(Console.ReadLine()!);
 
@@ -39,7 +42,7 @@ void PrintArray(int[,] mass)
 void FillArray(int[,] mass)
 {
     int k=0;
-    int a = 0;
+    int a = 1;
     for (int i=0; i < mass.GetLength(0)/2; i++)
     {
         for (int j=0; j < mass.GetLength(1)-a; j++)
@@ -47,19 +50,19 @@ void FillArray(int[,] mass)
             mass[i,j] = k;
             k++;
         }
-        int jj = mass.GetLength(1)-a-1;
-        for (int ii =0; ii < mass.GetLength(0)-a; ii++)
+        int jj = mass.GetLength(1)-a-2;
+        for (int ii =1; ii < mass.GetLength(0)-a; ii++)
         {
             mass[i,jj] = k;
             k++;
         }
-        for (int j = mass.GetLength(1)-a; j< 0; j--)
+        for (int j = mass.GetLength(1)-a-1; j< 0; j--)
         {
             mass[i,j] = k;
             k++;
         }
         int jjj = 0;
-        for (int ii = mass.GetLength(0)-a; ii < 0; i--)
+        for (int ii = mass.GetLength(0)-a-1; ii < 0; i--)
         {
             mass[ii,jjj] = k;
             k++;
